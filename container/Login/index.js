@@ -4,9 +4,6 @@ import InputBox from '../../components/InputBox/index';
 import {Link} from 'react-router-dom';
 import './index.less'
 export default class Login extends Component{
-    clickLogin=()=>{
-        console.log('手机登录')
-    }
     render(){
         return (
             <div>
